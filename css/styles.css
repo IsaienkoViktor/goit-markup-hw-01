@@ -32,7 +32,7 @@ body {
     color: #4D5AE5;
 }
 
-.page-studio {
+.span-studio {
     font-family: var(--secondary-font);
     font-style: normal;
     font-weight: 800;
@@ -111,15 +111,15 @@ p {
 
     color: #434455;
 }
-
-.footer-text {
+.footer-main{
+    /* NAVY BLUE */
+    background: #2E2F42;}
+.footer-text{
+    * Body */ 
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-
     /* CLOUD */
-    background-color: #2E2F42;
-    color: #F4F4FD;
-}
+    color: #F4F4FD;}
