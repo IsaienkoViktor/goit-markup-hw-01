@@ -11,15 +11,15 @@
 .list {
     text-decoration: none;
 }
-.address-main{ont-style: normal}
+.address-page{font-style: normal}
 
 /*====== body section======  */
 body {
-    font-family:'roboto','sans-serif';
+    font-family:"Roboto",
+        sans-serif;
     color:#434455;
     background-color: #FFFFFF;
 }
-
 /*====== header logo====== */
 .page-web {
     font-family: --secondary-font
@@ -58,7 +58,7 @@ body {
     /* NAVY BLUE */
     color: #2E2F42;
 }
-.h1-mainpage{
+.header-one{
     /* Header 1 */
     font-family: 'Roboto';
     font-style: normal;
@@ -76,7 +76,7 @@ body {
 .link:hover {
     color: #404BBF;
 }
-.section-1{background-color: #2e2f42;}
+.section-one{background-color: #2e2f42;}
 .main-button{
     /* Button Text */
     font-family: 'Roboto',
@@ -98,7 +98,7 @@ body {
 .main-button:focus,
 .main-button:hover{color: #404BBF;
 background-color: #404BBF;}
-.h3-mainpage{
+.header-three{
     /* Header 3 */
     font-family: 'Roboto';
     font-style: normal;
@@ -110,7 +110,7 @@ background-color: #404BBF;}
     /* NAVY BLUE */
 
     color: #2E2F42;}
-.h2-2{
+.header-two-two{
     /* Header 2 */
     font-family: 'Roboto';
     font-style: normal;
@@ -125,7 +125,7 @@ background-color: #404BBF;}
     /* NAVY BLUE */
 
     color: #2E2F42;}
-.h2-3{
+.header-two-three{
     /* Header 2 */
     font-family: 'Roboto';
     font-style: normal;
@@ -140,11 +140,10 @@ background-color: #404BBF;}
     /* NAVY BLUE */
 
     color: #2E2F42;}   
-.section-4{
+.section-four{
     /* CLOUD */
     background: #F4F4FD;} 
-        
-.page-email {
+.page-contact {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -152,15 +151,6 @@ background-color: #404BBF;}
     letter-spacing: 0.02em;
     color: #434455;
 }
-.page-phone {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    cursor: pointer;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
 .menu-button {
     font-weight: 500;
     font-size: 16px;
@@ -174,15 +164,6 @@ background-color: #404BBF;}
 .menu-button:hover {
     color: #404BBF;
 }
-
-h2 {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-
 p {
     font-style: normal;
     font-weight: 400;
@@ -203,4 +184,4 @@ p {
     line-height: 1.5;
     letter-spacing: 0.02em;
     /* CLOUD */
-    color: #F4F4FD;}
+    color: #f4f4fd;}
