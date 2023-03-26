@@ -159,7 +159,8 @@ background-color: #404BBF;}
     cursor: pointer;
     color: #4D5AE5;
 }
-
+.header-one-hidden{visibility: hidden;}
+.header-two-hidden{visibility: hidden;}
 .menu-button:focus,
 .menu-button:hover {
     color: #404BBF;
