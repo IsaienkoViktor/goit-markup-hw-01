@@ -15,7 +15,7 @@ body {
 }
 /*====== header logo====== */
 .page-web {
-    font-family: 'Raleway';
+    font-family: 'Raleway','sans-serif';
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -27,7 +27,7 @@ body {
     color: #4D5AE5;
 }
 .span-studio {
-    font-family: 'Raleway';
+    font-family: 'Raleway','sans-serif';
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -40,7 +40,7 @@ body {
 }
 
 /*=====Header nav menu=====*/
-.menu-link {
+.link {
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -123,7 +123,7 @@ background-color: #404BBF;}
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
     /* identical to box height, or 111% */
     text-align: center;
     letter-spacing: 0.02em;
@@ -139,12 +139,12 @@ background-color: #404BBF;}
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     cursor: pointer;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.menu-button {
+.menu-button{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -153,12 +153,11 @@ background-color: #404BBF;}
     cursor: pointer;
     color: #4D5AE5;
 }
-.header-one-hidden{visibility: hidden;}
-.header-two-hidden{visibility: hidden;}
 .menu-button:focus,
 .menu-button:hover {
-    color: #404BBF;
-}
+    color: #404BBF;}
+.header-one-hidden{visibility: hidden;}
+.header-two-hidden{visibility: hidden;}
 p {
     font-family: "Roboto", sans-serif;
     font-style: normal;
