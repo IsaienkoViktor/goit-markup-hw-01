@@ -57,12 +57,42 @@ body {
     /* NAVY BLUE */
     color: #2E2F42;
 }
+.h1-mainpage{
+    /* Header 1 */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    /* or 107% */
+    text-align: center;
+    letter-spacing: 0.02em;
 
+    /* WHITE */
+
+    color: #FFFFFF;}
 .link:focus,
 .link:hover {
     color: #404BBF;
 }
+.main-button{
+    /* Button Text */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    /* identical to box height, or 150% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
 
+    /* WHITE */
+
+    color: #FFFFFF;
+background-color: #4D5AE5;}
+.main-button:focus,
+.main-button:hover{color: #404BBF;}
 .page-email {
     font-weight: 400;
     font-size: 16px;
@@ -71,7 +101,6 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
 }
-
 .page-phone {
     font-weight: 400;
     font-size: 16px;
