@@ -14,7 +14,7 @@
 
 /*====== body section======  */
 body {
-    font-family: var(--main-font), sans-serif;
+    font-family: var(--main-font);
     color: var(--main-color);
 }
 
