@@ -140,7 +140,10 @@ background-color: #404BBF;}
     /* NAVY BLUE */
 
     color: #2E2F42;}   
-     
+.section-4{
+    /* CLOUD */
+    background: #F4F4FD;} 
+        
 .page-email {
     font-weight: 400;
     font-size: 16px;
