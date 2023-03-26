@@ -15,8 +15,7 @@
 
 /*====== body section======  */
 body {
-    font-family:"Roboto",
-        sans-serif;
+    font-family:"Roboto",sans-serif;
     color:#434455;
     background-color: #FFFFFF;
 }
@@ -79,8 +78,6 @@ body {
 .section-one{background-color: #2e2f42;}
 .main-button{
     /* Button Text */
-    font-family: 'Roboto',
-        'sans-serif';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -90,6 +87,7 @@ body {
     align-items: center;
     letter-spacing: 0.04em;
     cursor: pointer;
+    background-color: #4D5AE5;
 
     /* WHITE */
 
