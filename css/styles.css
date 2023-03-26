@@ -14,8 +14,8 @@
 
 /*====== body section======  */
 body {
-    font-family: var(--main-font);
-    color: var(--main-color);
+    font-family:'roboto','sans-serif';
+    color:#434455;
 }
 
 /*====== header logo====== */
@@ -33,7 +33,7 @@ body {
 }
 
 .span-studio {
-    font-family: var(--secondary-font);
+    font-family: 'Raleway','sans-serif';
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -42,7 +42,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     /* NAVY BLUE */
-    color: #2E2F42;
+    color: #f4f4fd;
 }
 
 /*=====Header nav menu=====*/
