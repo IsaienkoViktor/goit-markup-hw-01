@@ -11,6 +11,7 @@
 .list {
     text-decoration: none;
 }
+.address-main{ont-style: normal}
 
 /*====== body section======  */
 body {
@@ -21,7 +22,7 @@ body {
 
 /*====== header logo====== */
 .page-web {
-    font-family: 'Raleway','sans-serif';
+    font-family: --secondary-font
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -34,7 +35,7 @@ body {
 }
 
 .span-studio {
-    font-family: 'Raleway','sans-serif';
+    font-family: --secondary-font
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -43,7 +44,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     /* NAVY BLUE */
-    color: #f4f4fd;
+    color: #2e2f42;
 }
 
 /*=====Header nav menu=====*/
@@ -75,9 +76,11 @@ body {
 .link:hover {
     color: #404BBF;
 }
+.section-1{background-color: #2e2f42;}
 .main-button{
     /* Button Text */
-    font-family: 'Roboto';
+    font-family: 'Roboto',
+        'sans-serif';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -86,13 +89,58 @@ body {
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
+    cursor: pointer;
 
     /* WHITE */
 
     color: #FFFFFF;
-background-color: #4D5AE5;}
+}
 .main-button:focus,
-.main-button:hover{color: #404BBF;}
+.main-button:hover{color: #404BBF;
+background-color: #404BBF;}
+.h3-mainpage{
+    /* Header 3 */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    /* identical to box height, or 120% */
+    letter-spacing: 0.02em;
+    /* NAVY BLUE */
+
+    color: #2E2F42;}
+.h2-2{
+    /* Header 2 */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    /* identical to box height, or 111% */
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+
+    /* NAVY BLUE */
+
+    color: #2E2F42;}
+.h2-3{
+    /* Header 2 */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    /* identical to box height, or 111% */
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+
+    /* NAVY BLUE */
+
+    color: #2E2F42;}   
+     
 .page-email {
     font-weight: 400;
     font-size: 16px;
@@ -136,7 +184,7 @@ p {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1, 5;
+    line-height: 1,5;
     letter-spacing: 0.02em;
 
     color: #434455;
