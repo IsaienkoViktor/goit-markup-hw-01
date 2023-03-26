@@ -151,10 +151,12 @@ background-color: #404BBF;}
     letter-spacing: 0.04em;
     cursor: pointer;
     color: #4D5AE5;
+    background-color: #F4F4FD;
 }
 .menu-button:focus,
 .menu-button:hover {
-    color: #404BBF;}
+    color: #FFFFFF;
+background-color: #404BBF;}
 .header-one-hidden{visibility: hidden;}
 .header-two-hidden{visibility: hidden;}
 .list-background{background-color: #FFFFFF;}
