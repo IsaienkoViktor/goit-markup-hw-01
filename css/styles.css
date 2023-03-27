@@ -1,3 +1,6 @@
+:root {--main-font: 'Raleway','sans-serif';
+--secondary-font: "Roboto",sans-serif;
+--main-color: #2e2f42}
 .list {
     list-style: none;
 }
@@ -15,32 +18,30 @@ body {
 }
 /*====== header logo====== */
 .page-web {
-    font-family: 'Raleway','sans-serif';
+    font-family: 'Raleway','sans serif';
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     /* identical to box height, or 117% */
+    
+    display: flex;
+    align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    /* IRIS */
+    
+    /* NAVY BLUE */
+    
+    color: #2E2F42;
+    
+}
+.studio-span {
+    /* NAVY BLUE */
     color: #4D5AE5;
 }
-.span-studio {
-    font-family: 'Raleway','sans-serif';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    /* identical to box height, or 117% */
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    /* NAVY BLUE */
-    color: #2e2f42;
-}
 /*=====Header nav menu=====*/
-.link {
-    font-family: "Roboto", sans-serif;
+.links {
+    font-family:  "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
