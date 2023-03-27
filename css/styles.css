@@ -40,6 +40,25 @@ body {
     color: #4D5AE5;
 }
 /*=====Header nav menu=====*/
+.footer-text{
+    font-family: 'Raleway','sans serif';
+    font-style: normal;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    /* identical to box height, or 117% */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    /* IRIS */
+    
+    color: #4D5AE5;}
+.footer-studio-span{color:#F4F4FD;}
+
 .links {
     font-family:  "Roboto", sans-serif;
     font-style: normal;
@@ -175,13 +194,17 @@ p {
 .footer-main{
     /* NAVY BLUE */
     background: #2E2F42;}
-.footer-text{
-    * Body */ 
-    font-family: "Roboto", sans-serif;
+.footer-paragraf{
+    font-family: 'Roboto','sans serif'
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    /* or 150% */
+    
     letter-spacing: 0.02em;
+    
     /* CLOUD */
-    color: #f4f4fd;}
+    
+    color: #F4F4FD;
+    }
